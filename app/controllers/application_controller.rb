@@ -3,5 +3,6 @@ class ApplicationController < ActionController::Base
 
   def hello
     render html: "hello, hello"
+    include SessionsHelper
   end
 end
